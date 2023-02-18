@@ -145,7 +145,6 @@ func run(log log.T) {
 			log.Errorf("%s: %s", msg, debug.Stack())
 		}
 	}()
-	log.Infof("yhh start")
 	// run ssm agent
 	coreAgent, contextLog, err := initializeBasicModules(log)
 	if err != nil {
