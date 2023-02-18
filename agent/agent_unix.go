@@ -22,8 +22,6 @@ func main() {
 
 	// parse input parameters
 	parseFlags(log)
-
-	log.Info("yhh start")
 	// run agent
 	run(log, true)
 }
