@@ -19,6 +19,8 @@ func main() {
 	log := logger.SSMLogger(true)
 	defer log.Close()
 	defer log.Flush()
+	
+	log.Info("Yhh test first")
 
 	// parse input parameters
 	parseFlags(log)
